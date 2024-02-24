@@ -31,5 +31,7 @@
 
 /public/assets
 
-# Ignore master key for decrypting credentials and more.
-/config/master.key
+# Master Key is currently checked in but should be
+# ignored and rotated via rails credentials:edit prior
+# to serious development or deployment.
+# /config/master.key
